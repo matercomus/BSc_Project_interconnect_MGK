@@ -1,0 +1,3 @@
+set -ex
+
+jupyter kernelgateway --KernelGatewayApp.api='kernel_gateway.notebook_http' --KernelGatewayApp.seed_uri='API_Test.ipynb' --ip='*'
